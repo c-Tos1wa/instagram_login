@@ -1,6 +1,6 @@
 # Clone da Pagina Inicial do Instagram
 
-## Projeto criado para o bootcamp JavaScript Game Developer da Digital Inovation One (DIO)
+### Projeto criado para o bootcamp JavaScript Game Developer da Digital Inovation One (DIO)
 
 ### Linguagens usadas neste projeto:
 - HTML;
