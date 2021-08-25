@@ -5,4 +5,5 @@
 ### Linguagens usadas neste projeto:
 - HTML;
 - CSS;
-obs: Revisando posicionamento dos elementos dentro do container do css, sobre flex-box e media-queries.
+
+####obs: Revisando posicionamento dos elementos dentro do container do css, sobre flex-box e media-queries.
