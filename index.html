@@ -12,31 +12,42 @@
   <div class="insta-container">
 
     <div class="insta-image">
-      <img src="./img/mobile.png" alt="Foto de vários celulares" />
+      <img src="./img/mobile2.png" alt="Foto de dois celulares com o da frente mostrando o instagram na tela" />
     </div>
     <div class="insta-lateral">
       <div class="insta-block">
         <img src="./img/logo.png" alt="Logo do instagram" />
         <form>
-          <input label="identificador" placeholder="Telefone, nome de usuário ou email" type="text" />
+          <input 
+            label="id" 
+            placeholder="Telefone, nome de usuário ou email" 
+            type="text" 
+          />
+          <input 
+            label="password" 
+            placeholder="Senha" 
+            type="password" 
+          />
         </form>
-        <form>
-          <input label="password" placeholder="Senha" type="password" />
-        </form>
-        <button class="insta-button">Entrar</button>
-        <h5>OU</h5>
-        <img src="./img/fbIcon.png" alt="Icone fo facebook" />
-        <p>Entrar com o Facebook</p>
+        <button class="insta-button" value="Entrar">Entrar</button>
+        <div class="separator">OU</div>
+        <div class="insta-entrar">
+          <img src="./img/fbIcon.png" alt="Icone do Facebook" />
+          <span>Entrar com o Facebook</span>
+        </div>
         <small>Esqueceu a senha?</small>
       </div>
       <div class="insta-block">
-        Não tem uma conta? <a href="#">Cadastre-se</a>
+        <div class="insta-register">
+          <span>Não tem uma conta?</span> 
+          <a href="#">Cadastre-se</a>
+        </div>
       </div>
       <div class="insta-baixar">
-        <p>Obtenha o aplicativo.</p>
+        <span>Obtenha o aplicativo.</span>
         <div class="app">
-          <img class="app-ios"  src="./img/apple-button.png" alt="Botão para baixar no App Store" />
-          <img class="app-android" src="./img/googleplay-button.png" alt="botão para baixar no Google Play" />
+          <a href="#" class="app-download"></a> 
+          <a href="#" class="app-download"></a> 
         </div>
       </div>
     </div>
