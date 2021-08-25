@@ -130,6 +130,34 @@ body {
   margin-left: 3px;
 }
 
+@media (max-width: 1024px) {
+  .insta-container {
+    width: 90%;
+  }
+}
+
+@media (max-width:650px) {
+  body{
+    background-color: #ffffff;
+  }
+
+  .insta-container{
+    width: 90%;
+  }
+
+  .insta-image{
+    display: none;
+  }
+
+  .insta-lateral{
+    width: 100%;
+  }
+
+  .insta-block{
+    border: 1px solid transparent;
+  }
+}
+
 
 
 
